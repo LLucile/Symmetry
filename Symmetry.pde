@@ -91,8 +91,10 @@ void keyPressed(){
 
 
 void mousePressed(){
-  if(!started){
-    displayadvices();
+  if(!started){ //if the app has not started display advices
+    fill(#667AB7);
+    textSize(width/50);
+    text(" Press E to erase the canvas \n Press H to display or exit the help menu \n Press S to save your drawing \n Press + to increase the number of symmetry fold \n Press - to decrease the number of symmetry fold. ", width/4, 300);
   }    
 }
 
@@ -159,9 +161,4 @@ void mouseDragged(){
   }
 }
 
-void displayadvices(){
-  fill(#667AB7);
-  textSize(width/50);
-  text(" Press E to erase the canvas \n Press H to display or exit the help menu \n Press S to save your drawing \n Press + to increase the number of symmetry fold \n Press - to decrease the number of symmetry fold. ", width/4, 300);
-}
 
