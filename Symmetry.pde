@@ -32,9 +32,6 @@ void setup(){
   pixels_table = new color[width*height];
 }
 
-void draw(){
-}
-
 void keyPressed(){
   if(started){
     switch(key){
