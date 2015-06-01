@@ -116,7 +116,7 @@ void mouseDragged(){
       stroke(c,150,255, alpha);
       fill(255, 255, 255, alpha_fill);  
       line(pmouse_x, pmouse_y,mouse_x, mouse_y);
-      smooth();
+      //smooth();
     }
     else{
       float angle=2*PI/sym;
