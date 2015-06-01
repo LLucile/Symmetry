@@ -142,7 +142,7 @@ void mouseDragged(){
       fill(255, 255, 255, alpha_fill);  
       while(c_angle<=2*PI){
         line(r_p*cos(theta_p+c_angle),  r_p*sin(theta_p+c_angle),r*cos(theta+c_angle), r*sin(theta+c_angle));
-        smooth();
+        //smooth();
         c_angle+=angle;
       }
     }
